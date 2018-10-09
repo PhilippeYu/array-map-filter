@@ -42,9 +42,17 @@ En sortie: [
 
  */
 
-function getFoodCategories(foods) {
-}
 
+const getFoodCategories = (foods) => {
+const arr = []
+foods.map(function(bool) {
+  if (bool.isVegetarian == true)
+    arr.push(bool.food + ' is suitable for vegetarians')
+  else
+    arr.push(bool.food + ' is not suitable for vegetarians')
+  }) 
+return arr
+}
 
 
 // Ne pas modifier l'export
