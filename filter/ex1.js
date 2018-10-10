@@ -8,7 +8,7 @@ Exemple de tableau d'entrée:
   [7, -4, 2, 0, -10, 3, 11]
 Sortie attendue:
   [7, 2, 0, 3, 11]
-
+1
  */
 
 let getPositiveNumbers = (numbers) => {
